@@ -7,8 +7,8 @@ const App = () => {
   return (
     <div className="App">
       <h1> The count is: {count}</h1>
-      <button onClick={() => setCount(count + 1)}>increment</button>
       <button onClick={() => setCount(count - 1)}>decrement</button>
+      <button onClick={() => setCount(count + 1)}>increment</button>
     </div>
   );
 };
